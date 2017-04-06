@@ -1,10 +1,10 @@
-# FiveSports
-Site FiveSports 
-Rode os seguintes comandos no terminal...
+# FiveSports<br>
+Site FiveSports <br>
+Rode os seguintes comandos no terminal...<br>
 1 - npm install
 
-Para rodar live reload local...
-2 - fast-live-reload
+Para rodar live reload local...<br>
+2 - fast-live-reload<br />
 
 Abrir o projeto em "localhost:9000
 
