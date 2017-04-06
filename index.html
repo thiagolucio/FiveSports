@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Palavras chave separadas por virgulas" />
+    <meta name="description" content="Texto resumido aparecera nos resultados de busca atalhos" />
+    <meta name="author" content="Nome do autor">
+    <title>Five Sports Games</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+    <script type="text/javascript" src="./jquery/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./node_modules/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="./node_modules/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js"></script>
+    <script src="./js/w3data.js"></script>
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" type="text/css" href="./node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar-header margin-right50p">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#fiveSportCollapseBar">
+                <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+                <span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo111.png" class="img-responsive"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="fiveSportCollapseBar">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="novidades.html">Novidades</a></li> -->
+                <li><a href="autorizados.html">Agente Autorizado</a></li>
+                <li><a href="sobrenos.html">Sobre Nós</a></li>
+                <li><a href="treinamentos.html">Treinamento</a></li>
+                <li><a href="faleconosco.html">Contato</a></li>
+                <!--  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                         <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li class="divider"></li>
+                        <li> <a href="#">One more separated link</a></li>
+                    </ul>
+                </li> -->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="no-link-menu hidden-xs">
+                    <div class="socialIcons">
+                        <img src="img/iconFacebook.png" width="26" height="26">
+                        <img src="img/iconSteam.png" width="26" height="26">
+                        <img src="img/iconYoutube.png" width="26" height="26">
+                        <img src="img/iconInstagram.png" width="26" height="26">
+                        <img src="img/iconPlus.png" width="26" height="26">
+                        <img src="img/iconTwitter.png" width="26" height="26">
+                    </div>
+                </li>
+                <li class="no-link-menu">
+                    <button id="modal-598688" class="btn btn-default btn-topmenu" href="#modal-Login" role="button" data-toggle="modal">Login</button>
+                    <button id="modal-598688" class="btn btn-primary btn-topmenu" href="#modal-registro" role="button" data-toggle="modal">Registrar-se</button>
+                    <!-- <button id="" class="btn btn-primary btn-topmenu" onclick="javascript:location.href='registrar.html'" role="button">Registrar</button> -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- INICIO CORPO DO SITE -->
+    <div class="container-fluid mtop-16">
+        <div class="row">
+            <!--INICIO SLIDE CAROUSEL TOPO-->
+            <div class="col-md-12">
+                <div class="col-md-9">
+                    <div id="carousel-slide" class="carousel slide" data-ride="carousel">
+                        <!--<ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#carousel-slide"></li>
+                        <li data-slide-to="1" data-target="#carousel-slide"></li>
+                        <li data-slide-to="2" data-target="#carousel-slide"></li>
+                        <li data-slide-to="3" data-target="#carousel-slide"></li>
+                    </ol>-->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="container container-slides">
+                                <!-- PRIMEIRO ITEM SLIDE -->
+                                <div class="item active col-md-12 padding0">
+                                    <div alt="Primeiro Slide FiveSports" class="">
+                                        <img src="./img/slides/slide1.png" class="img-responsive slide01">
+                                        <div class="carousel-caption">
+                                            <h3> First Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div alt="Segundo Slide FiveSports" class="">
+                                        <img src="./img/slides/slide2.png" class="img-responsive slide02">
+                                        <div class="carousel-caption">
+                                            <h3>Second Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div alt="Terceiro Slide FiveSports" class="">
+                                        <img src="./img/slides/slide4.png" class="img-responsive slide04">
+                                        <div class="carousel-caption">
+                                            <h3> Third Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div alt="Quarto Slide FiveSports" class="">
+                                        <img src="./img/slides/slide3.png" class="img-responsive slide03">
+                                        <div class="carousel-caption">
+                                            <h3> Third Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- SEGUNDO ITEM SLIDE -->
+                                <div class="item col-md-12 padding0">
+                                    <div alt="Quinto Slide FiveSports" class="">
+                                        <img src="./img/slides/slide2.png" class="img-responsive slide01">
+                                        <div class="carousel-caption">
+                                            <h3> First Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div alt="Sexto Slide FiveSports" class="">
+                                        <img src="./img/slides/slide1.png" class="img-responsive slide02">
+                                        <div class="carousel-caption">
+                                            <h3>Second Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div alt="Setimo Slide FiveSports" class="">
+                                        <img src="./img/slides/slide3.png" class="img-responsive slide04">
+                                        <div class="carousel-caption">
+                                            <h3> Third Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div alt="Oitavo Slide FiveSports" class="">
+                                        <img src="./img/slides/slide4.png" class="img-responsive slide03">
+                                        <div class="carousel-caption">
+                                            <h3> Third Thumbnail label</h3>
+                                            <p>
+                                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id
+                                                dolor id nibh ultricies vehicula ut id elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control carousel-control-slide" href="#carousel-slide" data-slide="prev"><i class="glyphicon glyphicon-menu-left"></i></a>
+                            <a class="right carousel-control carousel-control-slide" href="#carousel-slide" data-slide="next"><i class="glyphicon glyphicon-menu-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--CONFIGURADORES-->
+                <div class=" col-md-3">
+                    <button class="btn btn-default btn-lg btn-block btn-configurador">
+                            <img src="./img/imgConfigurador/img-conf01.png" class="img-responsive margintop15p">
+                        <div class="label fontImpact font24"> Configurador</div>
+                    </button>
+                    <button class="btn btn-default btn-lg btn-block btn-configurador hidden-xs">
+                            <img src="./img/imgConfigurador/img-conf02.png" class="img-responsive margintop15p">
+                            <div class="label fontImpact font24"> Configurador</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FINAL SLIDE CAROUSEL DO TOPO-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="img-responsive" alt="Bootstrap Image Preview" src="./img/postsBloco/imgPost01.jpg" />
+                        <h4 class="fontImpact">Título Curto do Bloco.</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
+                            sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+                            vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere
+                            diam ut cursus. <em>Morbi commodo sodales nisi id sodales.
+                        </p>
+                        <button type="button" class="btn btn-primary">Saiba mais...</button>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-responsive" alt="Bootstrap Image Preview" src="./img/postsBloco/imgPost02.jpg" />
+                        <h4 class="fontImpact">Título Curto do Bloco.</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
+                            sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+                            vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere
+                            diam ut cursus. <em>Morbi commodo sodales nisi id sodales.
+                        </p>
+                        <button href="#" type="button" class="btn btn-primary">Saiba mais...</button>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-responsive" alt="Bootstrap Image Preview" src="./img/postsBloco/imgPost03.jpg" />
+                        <h4 class="fontImpact">Título Curto do Bloco</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
+                            sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+                            vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere
+                            diam ut cursus. <em>Morbi commodo sodales nisi id sodales.
+                        </p>
+                        <button type="button" class="btn btn-primary btn-default">Saiba mais...</button>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="img-responsive" alt="Bootstrap Image Preview" src="./img/postsBloco/imgPost04.jpg" />
+                        <h4 class="fontImpact">Título Curto do Bloco</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
+                            sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+                            vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere
+                            diam ut cursus. <em>Morbi commodo sodales nisi id sodales.
+                        </p>
+                        <button type="button" class="btn btn-primary">Saiba mais...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+            <h2>Novidades</h2>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-responsive margintop25" alt="Primeira Imagem de post FiveSports" src="./img/postsBloco/imgPost05.jpg"/>
+                    </div>
+                    <div class="col-md-8 padding0">
+                        <h3>Novo Assasins Creed.  40 primeiros minutos do jogo com todas as manhas.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
+                            sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+                            vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere
+                            diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em>Proin
+                            massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                        </p>
+                        <button type="button" class="btn btn-primary">Saiba mais...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-responsive margintop25" alt="Segunda Imagem de post FiveSports" src="./img/postsBloco/imgPost06.jpg" />
+                    </div>
+                    <div class="col-md-8">
+                        <h3>God of War Ascencion é a melhor versão da Saga que já foi feita.</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien
+                            sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed
+                            vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere
+                            diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em>Proin
+                            massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+                        </p>
+                        <button type="button" class="btn btn-primary">Saiba mais...</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row hidden-xs">
+                <iframe class="fb_iframe" style="margin-left: 25%;"
+                    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPautadistribuicao%2F&tabs=timeline&width=1000&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="1000" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        </div>
+                <div class="row">
+                    <iframe class="iframe-centralize" style="margin-left: 25%;" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2FPautadistribuicao%2F&layout=button&size=large&mobile_iframe=false&width=117&height=28&appId"
+                    width="117" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                </div>
+        </div>
+        <div class="row hidden-xs">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <h2 class="fontImpact">Videos Tutoriais</h2>
+                <!--CAROUSEL-->
+                <div id="CarouselYoutube" class="carousel slide">
+                    <!--<ol class="carousel-indicators">
+                                <li data-target="#CarouselYoutube" data-slide-to="0" class="active"></li>
+                                <li data-target="#CarouselYoutube" data-slide-to="1"></li>
+                                <li data-target="#CarouselYoutube" data-slide-to="2"></li>
+                            </ol>-->
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row padding0">
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/jSudEwGba4Q" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/RoCUZiYiW_8" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/_-CD_5YhJTA" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/zoCLEwFUpqg" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+                        <div class="item">
+                            <div class="row padding0">
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/jSudEwGba4Q" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/RoCUZiYiW_8" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/_-CD_5YhJTA" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/zoCLEwFUpqg" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+                        <div class="item">
+                            <div class="row padding0">
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/jSudEwGba4Q" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/RoCUZiYiW_8" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/_-CD_5YhJTA" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 padding0">
+                                    <a href="#" class="thumbnail thumbnail-youtube">
+                                        <iframe width="250" height="250" src="https://www.youtube.com/embed/zoCLEwFUpqg" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+                    </div>
+                    <!--.carousel-inner-->
+                    <a data-slide="prev" href="#CarouselYoutube" class="left carousel-control transicao">‹</a>
+                    <a data-slide="next" href="#CarouselYoutube" class="right carousel-control transicao">›</a>
+                </div>
+                <!--.Carousel-->
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <!-- FINAL DO CONTAINER NAO FLUIDO -->
+    <nav class="navbar navbar-default navbar-bottom hidden-xs" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-footer">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="socialIcons">
+                         <img src="img/iconFacebook.png" width="26" height="26">
+                        <img src="img/iconSteam.png" width="26" height="26">
+                        <img src="img/iconYoutube.png" width="26" height="26">
+                        <img src="img/iconInstagram.png" width="26" height="26">
+                        <img src="img/iconPlus.png" width="26" height="26">
+                        <img src="img/iconTwitter.png" width="26" height="26">
+                    </div>
+                </div>
+                <div class="col-md-8"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-default navbar-menu-footer">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Novidades</a></li>
+                            <li><a href="#">Agente Autorizado</a></li>
+                            <li><a href="#">Sobre Nós</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="" placeholder="Digite seu email..." />
+                                </div>
+                                <button type="submit" class="btn btn-default btn-dark"> NEWSLETTER</button>
+                                <button type="submit" class="btn btn-primary"> REGISTRE-SE</button>
+                            </form>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"> <a class="navbar-brand" href="#">Todos os direitos reservados para FIVe SPORTS @2017</a></div>
+                <div class="col-md-6">
+                    <img src="./img/payments-cards.png" class="pull-right" />
+                </div>
+            </div>
+        </div>
+    </nav>
+        <div w3-include-html="modal.html"></div>
+</body>
+</html>

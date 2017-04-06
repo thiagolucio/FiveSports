@@ -1,0 +1,25 @@
+{
+  "name": "fivesports",
+  "version": "1.0.0",
+  "description": "Five Sports Game Site",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "fivesports",
+    "games",
+    "playgames"
+  ],
+  "author": "Thiago Lucio",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "bootstrap-datepicker": "^1.6.4",
+    "fast-live-reload": "^2.7.5",
+    "font-awesome": "^4.7.2",
+    "jquery": "^3.2.1",
+    "normalize.css": "^5.0.0"
+  }
+}
