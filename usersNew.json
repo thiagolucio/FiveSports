@@ -1,0 +1,50 @@
+[{
+    "uss_codigo": "001",
+    "uss_nome": "Thiago",
+    "uss_cpf": "012.838.027-67",
+    "uss_sexo": "Masculino",
+    "uss_fone": "48-984037518",
+    "uss_logradouro": [{
+        "Bairro": "Campeche",
+        "Rua": "Garapuvu do Sul",
+        "Cep": "88066-018"
+    }],
+    "uss_numero": "258",
+    "cid_codigo": "01",
+    "uss_data_cadastro": "03/05/2016",
+    "uss_data_nascimento": "11/02/2016",
+    "uss_senha": "1111"
+},{
+    "uss_codigo": "002",
+    "uss_nome": "Fabio",
+    "uss_cpf": "012.333.557-18",
+    "uss_sexo": "Masculino",
+    "uss_fone": "48-98404556",
+    "uss_logradouro": [{
+        "Bairro": "Palhoça",
+        "Rua": "Cavadore San Remo",
+        "Cep": "88011-888"
+    }],
+    "uss_numero": "114",
+    "cid_codigo": "02",
+    "uss_data_cadastro": "03/05/2016",
+    "uss_data_nascimento": "11/02/2016",
+    "uss_senha": "222"
+},{
+    "uss_codigo": "003",
+    "uss_nome": "Garoto Juca",
+    "uss_cpf": "012.888.333-11",
+    "uss_sexo": "Masculino",
+    "uss_fone": "48-98407758",
+    "uss_logradouro": [{
+        "Bairro": "São José",
+        "Rua": "Avenida Beira Mar",
+        "Cep": "88011-111"
+    }],
+    "uss_numero": "135",
+    "cid_codigo": "03",
+    "uss_data_cadastro": "03/05/2016",
+    "uss_data_nascimento": "11/02/2016",
+    "uss_senha": "444"
+},
+]
