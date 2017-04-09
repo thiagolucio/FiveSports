@@ -42,6 +42,12 @@ export default StyleSheet.create({
         "paddingBottom": "0px!important",
         "paddingLeft": "0px!important"
     },
+    "padding6px": {
+        "paddingTop": 6,
+        "paddingRight": 6,
+        "paddingBottom": 6,
+        "paddingLeft": 6
+    },
     "padding16px": {
         "paddingTop": 16,
         "paddingRight": 16,
@@ -100,11 +106,17 @@ export default StyleSheet.create({
     "text-center": {
         "textAlign": "center"
     },
+    "text-justify": {
+        "textAlign": "justify"
+    },
     "cursor-pointer": {
         "cursor": "pointer"
     },
     "min-height": {
         "minHeight": 650
+    },
+    "line-height2": {
+        "lineHeight": 2
     },
     "maxwidth60": {
         "maxWidth": "60%"
@@ -544,5 +556,40 @@ export default StyleSheet.create({
     },
     "iframe[style]": {
         "width": "100% !important"
+    },
+    "title-block-novidades": {
+        "borderRadius": "0px!important",
+        "color": "#464542!important",
+        "fontWeight": "bold",
+        "fontSize": 18
+    },
+    "hr-title-block": {
+        "width": "100%",
+        "height": 3,
+        "backgroundColor": "#464542"
+    },
+    "img-block-novidades": {
+        "width": 80,
+        "height": 80
+    },
+    "text-block-novidades": {
+        "fontSize": 11,
+        "marginLeft": 100,
+        "lineHeight": 1,
+        "textAlign": "justify",
+        "fontWeight": "bold",
+        "color": "#636363"
+    },
+    "data-block-novidades": {
+        "fontSize": ": 10px",
+        "color": "#989898",
+        "fontWeight": "bold"
+    },
+    "media-heading": {
+        "fontSize": 15
+    },
+    "data-novidades": {
+        "fontSize": "11px!important",
+        "color": "#989898"
     }
 });
